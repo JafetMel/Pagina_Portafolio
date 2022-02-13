@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato&family=Rowdies:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Festive&family=Lato&family=Lobster&family=Redressed&family=Rowdies:wght@300;700&family=Tangerine:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Lato;
+    max-width: 100%;
+}
+
+body {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/997/86/407/computer-desk-keyboard-lamp-wallpaper-preview.jpg);
+    background-size: 100%;
+    background-position: 0px -220px;
+    backdrop-filter: blur(6px);
+}
+
+.navegacion {
+    width: 8000px;
+    padding: 10px;
+    font-size: 0.8cm;
+    opacity: 100;
+    margin-left: 600px;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu > li {
+    /*position: relative;*/
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 0.7cm;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu li a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: whitesmoke;
+    transition: all .3s;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.only {
+    margin-left: 300px;
+    margin-top: 150px;
+    color: whitesmoke;
+}
+
+.block {
+    margin: auto;
+    color: black;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+
